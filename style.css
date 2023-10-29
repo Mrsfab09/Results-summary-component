@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+p {
+  font-size: 18px;
+}
+.container {
+  background-color: aliceblue;
+  border-radius: 30px;
+  width: 800px;
+  height: 500px;
+}
+/*---------------------------------------------------------------------------------*/
+.summary {
+  position: absolute;
+  right: 0;
+  width: 50%;
+  height: 500px;
+  padding: 35px;
+}
+button {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  width: 30%;
+  height: 50px;
+  cursor: pointer;
+}
+button:hover {
+  background: hsl(224, 30%, 27%);
+}
+/*---------------------------------------------------------------------------------*/
+.result {
+  position: relative;
+  width: 50%;
+  height: 500px;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: 30px;
+  padding: 35px;
+  text-align: center;
+}
+.result h2 {
+  color: rgba(255, 255, 255, 0.671);
+  font-weight: 500;
+}
+.circle {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  color: hsl(0, 0%, 100%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.number1 {
+  position: absolute;
+  font-size: 60px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+.number2 {
+  position: relative;
+  color: rgba(255, 255, 255, 0.438);
+  font-weight: 500;
+  margin-top: 80px;
+}
+.description span {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+.description p {
+  color: rgba(255, 255, 255, 0.671);
+  font-weight: 500;
+}
+/*---------------------------------------------------------------------------------*/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: fixed;
+  bottom: 15px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
